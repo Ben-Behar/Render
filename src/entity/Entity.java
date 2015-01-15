@@ -2,12 +2,12 @@ package entity;
 
 import java.util.ArrayList;
 
-import physics.Physics;
+import physics.PhysicsTest;
 
 public class Entity
 {
 	ArrayList<Entity> subEntities = new ArrayList<Entity>();
-	Physics physics; 	// where
+	PhysicsTest physics; 	// where
 	Form form; 			// what 
 	
 }
